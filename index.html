@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriel | Portfólio de Tecnologia</title>
+    
+    <!-- Estilos CSS do Site -->
+    <style>
+        /* Estilos Gerais e Cores de Fundo */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #0f172a; /* Fundo escuro moderno */
+            color: #f8fafc;
+            line-height: 1.6;
+        }
+
+        /* Cabeçalho / Banner Principal */
+        header {
+            background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+            border-bottom: 2px solid #3b82f6;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            color: #60a5fa;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            color: #94a3b8;
+        }
+
+        /* Container de Conteúdo */
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        /* Cartões de Conteúdo */
+        .card {
+            background-color: #1e293b;
+            border: 1px solid #334155;
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 25px;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+        }
+
+        h2 {
+            color: #38bdf8;
+            border-bottom: 2px solid #334155;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+        }
+
+        p {
+            margin-bottom: 15px;
+            color: #cbd5e1;
+        }
+
+        ul {
+            padding-left: 20px;
+            color: #cbd5e1;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        /* Badges/Tags de Tecnologias */
+        .skills-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .skill-tag {
+            background-color: #0284c7;
+            color: white;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+
+        /* Container dos Botões de Contato */
+        .botoes-contato {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            margin-top: 15px;
+        }
+
+        /* Botões Interativos de Ação */
+        .btn-contato {
+            display: inline-block;
+            background-color: #2563eb;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.3s ease;
+        }
+
+        .btn-contato:hover {
+            background-color: #1d4ed8;
+        }
+
+        /* Botão Específico do GitHub */
+        .btn-github {
+            background-color: #334155;
+            color: white;
+        }
+
+        .btn-github:hover {
+            background-color: #475569;
+        }
+
+        /* Rodapé */
+        footer {
+            text-align: center;
+            padding: 25px;
+            background-color: #020617;
+            color: #64748b;
+            font-size: 0.9rem;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cabeçalho do Site -->
+    <header>
+        <h1>Gabriel Damasceno</h1>
+        <p>Desenvolvedor de Sistemas & Estudante de Tecnologia</p>
+    </header>
+
+    <div class="container">
+
+        <!-- Quem sou eu -->
+        <section class="card">
+            <h2>🚀 Sobre Mim</h2>
+            <p>
+                Atualmente estou no <strong>3º ano do Ensino Médio na Escola SESI</strong> e cursando o <strong>3º semestre do Técnico em Desenvolvimento de Sistemas no SENAI</strong>.
+            </p>
+            <p>
+                A união da formação de excelência do SESI com a prática intensiva de programação do SENAI me deu uma base sólida em lógica, trabalho em equipe e resolução de problemas tecnológicos complexos.
+            </p>
+        </section>
+
+        <!-- Meus Objetivos -->
+        <section class="card">
+            <h2>🎯 Objetivos de Carreira</h2>
+            <p>Tenho metas bem definidas para o meu futuro profissional:</p>
+            <ul>
+                <li><strong>Engenharia de Software:</strong> Cursar graduação para me especializar em arquitetura de sistemas, inteligência artificial e desenvolvimento de grandes soluções em software.</li>
+                <li><strong>Carreira Pública (Polícia Civil):</strong> Prestar concurso público com foco na área de <strong>Perícia Digital e Crimes Cibernéticos</strong>, aplicando a tecnologia a serviço da segurança e justiça.</li>
+            </ul>
+        </section>
+
+        <!-- Minhas Tecnologias -->
+        <section class="card">
+            <h2>💻 Conhecimentos Técnicos</h2>
+            <p>Tecnologias e linguagens que utilizo no meu dia a dia de estudos no SENAI:</p>
+            
+            <div class="skills-grid">
+                <span class="skill-tag">HTML5 & CSS3</span>
+                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">Lógica de Programação</span>
+                <span class="skill-tag">Banco de Dados (SQL)</span>
+                <span class="skill-tag">Git & GitHub</span>
+                <span class="skill-tag">Engenharia de Requisitos</span>
+            </div>
+        </section>
+
+        <!-- Meus Projetos -->
+        <section class="card">
+            <h2>📁 Projetos</h2>
+            <ul>
+                <li><strong>Website do Curso SENAI:</strong> Projeto de apresentação do curso técnico utilizando marcações e estilização moderna.</li>
+                <li><strong>Meu Portfólio Pessoal:</strong> Este site desenvolvido em HTML e CSS para centralizar minhas conquistas.</li>
+            </ul>
+        </section>
+
+        <!-- Seção de Contato -->
+        <section class="card">
+            <h2>📬 Vamos conversar?</h2>
+            <p>Se quiser entrar em contato comigo para falar sobre projetos, estudos ou oportunidades:</p>
+            
+            <div class="botoes-contato">
+                <a href="mailto:seuemail@email.com" class="btn-contato">Enviar E-mail</a>
+                <a href="https://github.com/Gabriel-237" target="_blank" class="btn-contato btn-github">Acessar GitHub</a>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2026 Gabriel - Criado com HTML5 e CSS3.</p>
+    </footer>
+
+</body>
+</html>
